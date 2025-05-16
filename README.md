@@ -13,12 +13,12 @@ This scanner attempts to connect to a range of TCP ports on a user-specified tar
 
 ##  Features
 
-- ⚡ *Multithreaded Scanning* — utilizes Python's ThreadPoolExecutor for high-speed scanning across multiple ports simultaneously.
-- 🔍 *Accurate Open Port Detection* — checks if ports are accepting TCP connections and outputs only open ports.
-- 🧠 *Lightweight and Beginner-Friendly* — no external dependencies, easy to understand and customize.
-- 🖥 *Terminal-Based Interface* — scan targets directly from your terminal or command line.
-- 📦 *Fully Offline Tool* — does not require internet connection unless scanning an external domain.
-- 🛡 *Ethical Hacking Utility* — excellent for educational purposes, internal audits, and CTF practice environments.
+-  *Multithreaded Scanning* — utilizes Python's ThreadPoolExecutor for high-speed scanning across multiple ports simultaneously.
+-  *Accurate Open Port Detection* — checks if ports are accepting TCP connections and outputs only open ports.
+-  *Lightweight and Beginner-Friendly* — no external dependencies, easy to understand and customize.
+-  *Terminal-Based Interface* — scan targets directly from your terminal or command line.
+-  *Fully Offline Tool* — does not require internet connection unless scanning an external domain.
+-  *Ethical Hacking Utility* — excellent for educational purposes, internal audits, and CTF practice environments.
 
 ---
 
@@ -73,7 +73,7 @@ Example output:
 [+] Open port: 22
 [+] Open port: 80
 [+] Open port: 443
-📌 Important Notes
+ Important Notes
 Port scanning can be legally sensitive. Always obtain explicit permission before scanning devices or networks that you do not own or control.
 
 This script does not perform service detection, OS fingerprinting, or UDP scanning — it's strictly for TCP port checking.
@@ -84,20 +84,20 @@ The default range is ports 1–1024. You can modify the script to scan all 65535
 
 On Linux or macOS, you may need to run the script with sudo to avoid permission issues when scanning certain ports.
 
-🔧 Customization Tips
-🔁 Custom Port Ranges: Modify the range(1, 1025) line to scan specific ranges.
+ Customization Tips
+ Custom Port Ranges: Modify the range(1, 1025) line to scan specific ranges.
 
-🎯 Timeout Settings: Adjust socket timeout for more/less aggressive scanning.
+ Timeout Settings: Adjust socket timeout for more/less aggressive scanning.
 
-📊 Save Output to File: Redirect output or write open ports to a log file.
+ Save Output to File: Redirect output or write open ports to a log file.
 
-🧩 Add Banner Grabbing: Use socket recv methods to grab banners from open services.
+ Add Banner Grabbing: Use socket recv methods to grab banners from open services.
 
-👨‍💻 Developed By
+ Developed By
 Dolapotheethicalhacker — A cybersecurity enthusiast, ethical hacker, and Python programmer passionate about making security tools accessible and beginner-friendly.
 
 
-⚠ Disclaimer: This tool is provided for educational purposes only. The developer is not responsible for any misuse. Always follow ethical hacking guidelines and local laws.
+ Disclaimer: This tool is provided for educational purposes only. The developer is not responsible for any misuse. Always follow ethical hacking guidelines and local laws.
 
 
 ## Created by DolapotheEthicalHacker
